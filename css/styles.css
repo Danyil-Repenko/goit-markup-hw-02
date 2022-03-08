@@ -1,0 +1,157 @@
+:root {
+  --headers-color: #212121;
+  --accent-color: #2196f3;
+  --main-text-color: #757575;
+  --ad-text-color: #ffffff;
+  --bg-color: #ffffff;
+  --seethrough-text-color: rgba(255, 255, 255, 0.6);
+  --dark-bg-color: #2f303a;
+  --light-bg-color: #f5f4fa;
+  --nav-font-weight: 500;
+  --text-font-weight: 400;
+  --text-font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.first_half {
+  color: var(--accent-color);
+}
+
+.second_half {
+  color: var(--headers-color);
+}
+
+.second_half_footer {
+  color: var(--ad-text-color);
+}
+
+.list,
+.crew_list,
+.nav {
+  list-style-type: none;
+}
+
+.page_nav,
+.nav_portf {
+  font-family: var(--text-font-family);
+  font-weight: var(--nav-font-weight);
+  font-size: 14px;
+  color: var(--headers-color);
+}
+
+.adress_link {
+  font-family: var(--text-font-family);
+  font-weight: var(--nav-font-weight);
+  font-style: normal;
+  font-size: 14px;
+  color: var(--main-text-color);
+}
+.page_nav:hover,
+.adress_link:hover {
+  color: var(--accent-color);
+}
+
+.page_nav:focus,
+.adress_link:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--dark-bg-color);
+  text-align: center;
+  font-family: var(--text-font-family);
+}
+
+.page_header {
+  font-family: var(--text-font-family);
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--ad-text-color);
+}
+.btn {
+  font-weight: 700;
+  background-color: var(--accent-color);
+  color: var(--ad-text-color);
+}
+
+.btn:focus,
+.btn:hover {
+  color: var(--headers-color);
+}
+
+.section_header {
+  font-family: var(--text-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--headers-color);
+}
+.paragraf_head {
+  font-family: var(--text-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--headers-color);
+}
+
+.caps {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.text {
+  font-family: var(--text-font-family);
+  font-weight: var(--text-font-weight);
+  font-size: 16px;
+  color: var(--main-text-color);
+}
+
+.crew_head {
+  font-size: 16px;
+}
+
+.intro {
+  font-size: 14px;
+}
+.crew_list_el {
+  text-align: center;
+  background-color: var(--bg-color);
+}
+.alt_section {
+  background-color: var(--light-bg-color);
+}
+.nav_portf_btn {
+  font-family: var(--text-font-family);
+  font-weight: var(--nav-font-weight);
+  font-size: 16px;
+  color: var(--headers-color);
+  background-color: #f5f4fa;
+}
+
+.nav_portf_btn:hover,
+.nav_portf_btn:focus {
+  color: var(--ad-text-color);
+  background-color: var(--accent-color);
+}
+
+.adress_location {
+  color: var(--ad-text-color);
+  font-weight: var(--text-font-weight);
+}
+.in_footer {
+  color: var(--seethrough-text-color);
+  font-weight: var(--text-font-weight);
+}
+.footer {
+  background-color: var(--dark-bg-color);
+}
+.nav_portf {
+  text-align: center;
+}
