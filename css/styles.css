@@ -4,12 +4,14 @@
   --main-text-color: #757575;
   --ad-text-color: #ffffff;
   --bg-color: #ffffff;
-  --seethrough-text-color: rgba(255, 255, 255, 0.6);
   --dark-bg-color: #2f303a;
   --light-bg-color: #f5f4fa;
   --nav-font-weight: 500;
-  --text-font-weight: 400;
-  --text-font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-color);
 }
 a {
   text-decoration: none;
@@ -41,14 +43,12 @@ a {
 
 .page_nav,
 .nav_portf {
-  font-family: var(--text-font-family);
   font-weight: var(--nav-font-weight);
   font-size: 14px;
   color: var(--headers-color);
 }
 
 .adress_link {
-  font-family: var(--text-font-family);
   font-weight: var(--nav-font-weight);
   font-style: normal;
   font-size: 14px;
@@ -71,7 +71,6 @@ a {
 }
 
 .page_header {
-  font-family: var(--text-font-family);
   font-weight: 900;
   font-size: 44px;
   color: var(--ad-text-color);
@@ -80,6 +79,7 @@ a {
   font-weight: 700;
   background-color: var(--accent-color);
   color: var(--ad-text-color);
+  cursor: pointer;
 }
 
 .btn:focus,
@@ -88,14 +88,12 @@ a {
 }
 
 .section_header {
-  font-family: var(--text-font-family);
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   color: var(--headers-color);
 }
 .paragraf_head {
-  font-family: var(--text-font-family);
   font-weight: 700;
   font-size: 18px;
   color: var(--headers-color);
@@ -107,8 +105,6 @@ a {
 }
 
 .text {
-  font-family: var(--text-font-family);
-  font-weight: var(--text-font-weight);
   font-size: 16px;
   color: var(--main-text-color);
 }
@@ -128,11 +124,11 @@ a {
   background-color: var(--light-bg-color);
 }
 .nav_portf_btn {
-  font-family: var(--text-font-family);
   font-weight: var(--nav-font-weight);
   font-size: 16px;
   color: var(--headers-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .nav_portf_btn:hover,
@@ -143,11 +139,9 @@ a {
 
 .adress_location {
   color: var(--ad-text-color);
-  font-weight: var(--text-font-weight);
 }
 .in_footer {
-  color: var(--seethrough-text-color);
-  font-weight: var(--text-font-weight);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer {
   background-color: var(--dark-bg-color);
