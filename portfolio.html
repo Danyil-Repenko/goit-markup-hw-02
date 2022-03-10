@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -32,6 +32,7 @@
           <a class="adress_link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
+          <!--змінити не можу, Prettier виправляє-->
         </li>
         <li>
           <a class="adress_link" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -39,28 +40,25 @@
       </ul>
     </header>
     <main>
-      <section class="nav_portf">
-        <h2 class="section_header">Навигация по портфолио</h2>
+      <section class="portf">
+        <h1 class="section_header">Портфолио</h1>
         <ul class="list">
-          <li class="nav_portf_element">
-            <button class="nav_portf_btn" type="button">Все</button>
+          <li class="portf-el">
+            <button class="portf_btn defoult-btn" type="button">Все</button>
           </li>
-          <li class="nav_portf_element">
-            <button class="nav_portf_btn" type="button">Веб-сайты</button>
+          <li class="portf-el">
+            <button class="portf_btn" type="button">Веб-сайты</button>
           </li>
-          <li class="nav_portf_element">
-            <button class="nav_portf_btn" type="button">Приложения</button>
+          <li class="portf-el">
+            <button class="portf_btn" type="button">Приложения</button>
           </li>
-          <li class="nav_portf_element">
-            <button class="nav_portf_btn" type="button">Дизайн</button>
+          <li class="portf-el">
+            <button class="portf_btn" type="button">Дизайн</button>
           </li>
-          <li class="nav_portf_element">
-            <button class="nav_portf_btn" type="button">Маркетинг</button>
+          <li class="portf-el">
+            <button class="portf_btn" type="button">Маркетинг</button>
           </li>
         </ul>
-      </section>
-      <section class="examples">
-        <h2 class="section_header">Экземпляры</h2>
         <ul class="list">
           <li>
             <a href="/" target="_blank" class="blank_link"
@@ -69,7 +67,7 @@
                 alt="Открыть веб-сайт на ноутбуке"
                 width="370"
               />
-              <h3 class="paragraf_head">Технокряк</h3>
+              <h2 class="paragraf_head">Технокряк</h2>
               <p class="text">Веб-сайт</p></a
             >
           </li>
@@ -80,9 +78,9 @@
                 alt="Баскетболисты борются за мяч"
                 width="370"
               />
-              <h3 class="paragraf_head">
+              <h2 class="paragraf_head">
                 Постер <span lang="en">New Orlean vs Golden Star</span>
-              </h3>
+              </h2>
               <p class="text">Дизайн</p></a
             >
           </li>
@@ -93,16 +91,16 @@
                 alt="Стильный логотип"
                 width="370"
               />
-              <h3 class="paragraf_head">
+              <h2 class="paragraf_head">
                 Ресторан <span lang="en">Seafood</span>
-              </h3>
+              </h2>
               <p class="text">Приложение</p></a
             >
           </li>
           <li>
             <a href="/" target="_blank" class="blank_link"
               ><img src="images/proj-4.jpg" alt="Наушники" width="370" />
-              <h3 class="paragraf_head">Проект <span lang="en">Prime</span></h3>
+              <h2 class="paragraf_head">Проект <span lang="en">Prime</span></h2>
               <p class="text">Маркетинг</p></a
             >
           </li>
@@ -113,7 +111,7 @@
                 alt="Аккуратные коробки"
                 width="370"
               />
-              <h3 class="paragraf_head">Проект <span lang="en">Boxes</span></h3>
+              <h2 class="paragraf_head">Проект <span lang="en">Boxes</span></h2>
               <p class="text">Приложение</p></a
             >
           </li>
@@ -124,18 +122,18 @@
                 alt="Открытый сайт на экране компьютера"
                 width="370"
               />
-              <h3 class="paragraf_head" lang="en">
+              <h2 class="paragraf_head" lang="en">
                 Inspiration has no Borders
-              </h3>
+              </h2>
               <p class="text">Веб-сайт</p></a
             >
           </li>
           <li>
             <a href="/" target="_blank" class="blank_link"
               ><img src="images/proj-7.jpg" alt="Открытый журнал" width="370" />
-              <h3 class="paragraf_head">
+              <h2 class="paragraf_head">
                 Издание <span lang="en">Limited Edition</span>
-              </h3>
+              </h2>
               <p class="text">Дизайн</p></a
             >
           </li>
@@ -146,7 +144,7 @@
                 alt="Стильный логотип"
                 width="370"
               />
-              <h3 class="paragraf_head">Проект <span lang="en">LAB</span></h3>
+              <h2 class="paragraf_head">Проект <span lang="en">LAB</span></h2>
               <p class="text">Маркетинг</p></a
             >
           </li>
@@ -157,7 +155,7 @@
                 alt="Работа за ноутом"
                 width="370"
               />
-              <h3 class="paragraf_head" lang="en">Growing Business</h3>
+              <h2 class="paragraf_head" lang="en">Growing Business</h2>
               <p class="text">Приложение</p></a
             >
           </li>
@@ -179,12 +177,12 @@
             >
           </li>
           <li>
-            <a class="adress_link in_footer" href="mailto:info@devstudio.com"
+            <a class="adress_link_footer" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="adress_link in_footer" href="tel:+380961111111"
+            <a class="adress_link_footer" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
